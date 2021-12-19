@@ -6,15 +6,6 @@ const args = process.argv;
 
 const currentWorkingDirectory = args[1].slice(0, -8);
 
-// if (fs.existsSync(currentWorkingDirectory + "task.txt") === false) {
-//   let createStream = fs.createWriteStream("task.txt");
-//   createStream.end();
-// }
-// if (fs.existsSync(currentWorkingDirectory + "completed.txt") === false) {
-//   let createStream = fs.createWriteStream("completed.txt");
-//   createStream.end();
-// }
-
 // storing all arguments except the first two
 const command = args.slice(2);
 
